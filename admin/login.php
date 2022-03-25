@@ -41,6 +41,7 @@ if(isset($_POST['submit'])){
             <div class="login-content">
                <div class="login-form mt-150">
                   <form method="post">
+                    <h2 align="center">Admin Login</h2><br>
                      <div class="form-group">
                         <label>Username</label>
                         <input type="text" name="username" class="form-control" placeholder="Username" required>
@@ -49,7 +50,9 @@ if(isset($_POST['submit'])){
                         <label>Password</label>
                         <input type="password" name="password" class="form-control" placeholder="Password" required>
                      </div>
-                     <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button>
+                     <button type="submit" name="submit" class="btn btn-success btn-flat m-b-30 m-t-30">Sign in</button><br><br>
+
+                     <a href="../login.php" class="fv-btn"> Home Page ?</a>
 					</form>
                <div class="fied_errors"><?php echo "$msg"?></div>
                </div>

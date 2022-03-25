@@ -18,6 +18,15 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=""){
 <html class="no-js" lang="">
    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
    <head>
+      <style type="text/css">
+         .logo{
+            height: 40px;
+            width: 80px;
+            margin: 0px;
+            margin-bottom: 2px;
+           
+         }
+      </style>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Dashboard Page</title>
@@ -61,8 +70,8 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=""){
          <header id="header" class="header">
             <div class="top-left">
                <div class="navbar-header">
-                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
-                  <a class="navbar-brand hidden" href="index.html"><img src="images/logo2.png" alt="Logo"></a>
+                  <a class="navbar-brand" href="#"><img src="images/admin1.png" class="logo" alt="Logo"></a>
+                  <a class="navbar-brand hidden" href="index.html"><img src="images/admin1.png" alt="Logo"></a>
                   <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
                </div>
             </div>

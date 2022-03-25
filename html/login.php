@@ -46,6 +46,8 @@ $msg="";
 									
 									<div class="contact-btn">
 										<button type="submit" name="submit" class="fv-btn">Login</button>
+										<br>
+										<a href="../login.php"> Admin Login</a>
 									</div>
 								</form>
                                 <div class="fied_errors"><?php echo "$msg"?></div>
